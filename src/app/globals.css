@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --border-color: #d4d4d8;
+  --card-badge-bg: #f4f4f5;
+  --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
 }
 
 @theme inline {
@@ -19,8 +22,18 @@
   }
 }
 
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --border-color: #27272a;
+  --card-badge-bg: #3f3f46;
+  --shadow: none;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
