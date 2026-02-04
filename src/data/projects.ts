@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Sudoku Game",
     summary: "Angular application for playing Sudoku. with puzzle generation and solving.",
     stack: ["Angular", "RxJS", "TypeScript"],
-    links: { github: "https://github.com/thabangramathe/sudoku-game", demo: "#" },
+    links: { github: "https://github.com/thabangramathe/sudoku-game", demo: "https://sudoku-tr.vercel.app" },
   },
   {
     slug: "wifi-cursor-controller",
