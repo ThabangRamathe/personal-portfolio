@@ -9,6 +9,13 @@ export const projects: Project[] = [
     links: { github: "https://github.com/thabangramathe/sudoku-game", demo: "https://sudoku-tr.vercel.app" },
   },
   {
+    slug: "Whisper-Link",
+    title: "Whisper Link",
+    summary: "Whisper Link lets you encrypt a secret client-side and generate a one-time link that can be opened exactly once (or until TTL) to reveal the secret.",
+    stack: ["Next.js", "TypeScript", "Upstash Redis"],
+    links: { github: "https://github.com/thabangramathe/whisper-link", demo: "https://whisper-link-tr.vercel.app" },
+  },
+  {
     slug: "wifi-cursor-controller",
     title: "WiFi Cursor Controller",
     summary: "Mobile app controlling PC cursor over Wi-Fi (Flutter + Python).",
